@@ -20,7 +20,7 @@ A soon you install the node module
 ``` notes -o "16-01-2022" ```
 
 
-Todos:
+# Things I want to do later on:
 - Seach folder using words (notes -s "search word")
 - List Search Results on a table by date
 - Open File by date on predefined text editor. (notes -o "16-01-2022" -e vscode)
