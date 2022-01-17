@@ -1,0 +1,23 @@
+{
+  "name": "term-notes",
+  "version": "1.20.0",
+  "description": "A CLI to manage a note files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "MIT"
+  ],
+  "author": "Eddwin Paz",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "conf": "^9.0.2",
+    "term-notes": "^1.6.0"
+  },
+  "bin": {
+    "notes": "index.js"
+  }
+}
