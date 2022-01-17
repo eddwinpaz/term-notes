@@ -42,7 +42,7 @@ const getTime = () => {
     const today = new Date();
     let h = addZero(today.getHours());
     let m = addZero(today.getMinutes());
-    let time = h + ":" + m;
+    let time = `${h}:${m}`;
     return time
 }
 

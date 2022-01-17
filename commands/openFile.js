@@ -11,7 +11,6 @@ const openFile = (date) => {
         console.log(`\n${current_note}\n`);
 
     } catch (e) {
-        console.log(e)
         console.log(chalk.red.bold(`Please set a folder path for your notes using "npm config <path>" command`))
     }
 }
