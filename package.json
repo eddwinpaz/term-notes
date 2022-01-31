@@ -4,7 +4,8 @@
   "description": "A CLI to manage a note files",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npm link"
   },
   "keywords": [
     "MIT"
